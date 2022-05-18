@@ -1,12 +1,11 @@
 import {
-  Facebook,
-  Instagram,
-  MailOutline,
-  Phone,
-  Pinterest,
-  Room,
-  Twitter,
-} from "@material-ui/icons";
+  FacebookIcon,
+  InstagramIcon,
+  MailIcon,
+  PhoneIcon,
+ 
+  TwitterIcon,
+} from "@mui/icons-material";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -96,16 +95,16 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
-            <Facebook />
+            <FacebookIcon />
           </SocialIcon>
           <SocialIcon color="E4405F">
-            <Instagram />
+            <InstagramIcon />
           </SocialIcon>
           <SocialIcon color="55ACEE">
-            <Twitter />
+            <TwitterIcon />
           </SocialIcon>
           <SocialIcon color="E60023">
-            <Pinterest />
+            <PinterestIcon />
           </SocialIcon>
         </SocialContainer>
       </Left>
